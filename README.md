@@ -7,7 +7,7 @@ Webpage to [Higgsboson](https://github.com/javierlopezdeancos/higgsboson), a the
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-## 🚀 Project Structure
+## Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
@@ -25,7 +25,7 @@ Inside of your Astro project, you'll see the following folders and files:
 └── package.json
 ```
 
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
