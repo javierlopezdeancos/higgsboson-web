@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link webc:keep rel="stylesheet" href="/src/styles/higgsboson.min.css" />
+		<title>Higgsboson</title>
+		<style webc:keep @html="this.getCSS(this.page?.url)"></style>
+	</head>
+	<body>
+		<div class="hggs-app" @html="this.content"></div>
+	</body>
+</html>

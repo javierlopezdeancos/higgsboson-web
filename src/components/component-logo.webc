@@ -1,0 +1,19 @@
+<div class="hggs-logo"></div>
+
+<style webc:scoped>
+  @keyframes spin {
+    100% {
+      transform:rotate(360deg);
+    }
+  }
+
+  .hggs-logo {
+    width: var(--hggs-space-lg-default);
+    height: var(--hggs-space-lg-default);
+    animation: spin 8s linear infinite;
+  }
+
+  .hggs-logo:hover {
+    animation-play-state: paused
+  }
+</style>

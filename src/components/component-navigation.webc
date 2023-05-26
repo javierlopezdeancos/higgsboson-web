@@ -1,0 +1,21 @@
+<nav>
+   <ul class="hggs-flex hggs-flex--row-right-center hggs-flex--gap-medium">
+    <li><a class="hggs-link" href="/documentation">Docs</a></li>
+    <li><a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson">Github</a></li>
+  </ul>
+</nav>
+
+<style webc:scoped>
+  nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-size: var(--hggs-font-size-xl-default);
+  }
+</style>

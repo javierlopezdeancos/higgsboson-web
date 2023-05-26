@@ -1,0 +1,8 @@
+<header class="hggs-flex hggs-flex--row-space-between-center">
+  <section class="hggs-flex hggs-flex--row-left-center">
+    <component-logo></component-logo>
+  </section>
+  <section class="hggs-flex hggs-flex--row-right-center">
+    <component-navigation></component-navigation>
+  </section>
+</header>
