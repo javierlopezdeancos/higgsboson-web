@@ -1,6 +1,5 @@
 # build output
-dist/
-.output/
+_site/
 
 # dependencies
 node_modules/

@@ -1,16 +1,28 @@
 {
-  "name": "@example/basics",
-  "type": "module",
-  "version": "0.0.1",
-  "private": true,
+  "name": "higgsboson-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javierlopezdeancos/higgsboson-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javierlopezdeancos/higgsboson-web/issues"
+  },
+  "homepage": "https://github.com/javierlopezdeancos/higgsboson-web#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
   },
   "dependencies": {
-    "astro": "^1.9.0"
+    "@11ty/eleventy-plugin-webc": "^0.11.1"
   }
 }
