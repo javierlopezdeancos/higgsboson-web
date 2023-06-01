@@ -1,6 +1,8 @@
 <nav>
    <ul class="hggs-flex hggs-flex--row-right-center hggs-flex--gap-medium">
-    <li><a class="hggs-link" href="/documentation">Docs</a></li>
+    <li><a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson/blob/main/README.md">Docs</a></li>
+    <li><a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson/blob/main/README.md#components">Components</a></li>
+    <li><a class="hggs-link" href="/blog">Blog</a></li>
     <li><a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson">Github</a></li>
   </ul>
 </nav>
@@ -16,6 +18,6 @@
   nav ul li a {
     text-decoration: none;
     font-style: normal;
-    font-size: var(--hggs-font-size-xl-default);
+    font-size: var(--hggs-font-size-md-default);
   }
 </style>

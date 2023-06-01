@@ -2,3 +2,5 @@
 layout: layout-app.webc
 ---
 <component-header></component-header>
+<component-main></component-main>
+<component-footer></component-footer>
