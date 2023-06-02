@@ -1,4 +1,4 @@
-<nav>
+<nav class="hggsw-navigation">
    <ul>
     <li><a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson/blob/main/README.md">Docs</a></li>
     <li><a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson/blob/main/README.md#components">Components</a></li>
@@ -7,8 +7,8 @@
   </ul>
 </nav>
 
-<style webc:scoped>
-  nav ul {
+<style>
+  .hggsw-navigation ul {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,14 +20,14 @@
     margin-bottom: 0;
   }
 
-  nav ul li a {
+  .hggsw-navigation ul li a {
     text-decoration: none;
     font-style: normal;
     font-size: var(--hggs-font-size-md-default);
   }
 
    @media (max-width: 350px) {
-    nav ul {
+    .hggsw-navigation ul {
       flex-direction: column;
       gap: var(--hggs-space-sm-default);
     }

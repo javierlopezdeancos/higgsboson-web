@@ -1,11 +1,11 @@
-<section class="hggs-flex hggs-flex--column-center">
+<section class="hggsw-header hggs-flex hggs-flex--column-center">
   <h1 class="hggs-h1">Style modern websites progressively without having to be couple to any no native technology.</h1>
   <p class="hggs-text hggs-text--align-center">A component oriented CSS framework that can be composed to build any design, directly in your markup. Higgsboson is built using <a class="hggs-link" href="https://postcss.org/">Postcss</a> which translates the source code to standard css. The postcss plugins that Higgsboson are using are the least as possible and <span class="hggs-text hggs-text--bold">only if they will be candidates to be part of the css standard</span>.</p>
   <button class="hggs-button">Get started</button>
 </section>
 
-<style webc:scoped>
-  .hggs-h1 {
+<style>
+  .hggsw-header .hggs-h1 {
     margin-top: var(--hggs-space-md-default);
     margin-bottom: var(--hggs-space-md-default);
     font-size: 65px;
@@ -13,12 +13,12 @@
     text-align: center;
   }
 
-  .hggs-text {
+  .hggsw-header .hggs-text {
     margin-top: 0;
   }
 
   @media (max-width: 700px) {
-    .hggs-h1 {
+    .hggsw-header .hggs-h1 {
       font-size: 35px;
       line-height: 35px;
     }

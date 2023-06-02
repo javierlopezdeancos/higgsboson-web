@@ -1,6 +1,6 @@
 ---
 layout: layout-app.webc
 ---
-<component-header></component-header>
-<component-main></component-main>
-<component-footer></component-footer>
+<component-header webc:nokeep></component-header>
+<component-main webc:nokeep></component-main>
+<component-footer webc:nokeep></component-footer>
