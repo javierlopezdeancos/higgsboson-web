@@ -1,6 +1,6 @@
 
 <footer>
-  <p class="hggs-text hggs-text--small">
-    Made with <a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson">Higgsboson</a>.
+  <p class="hggs-text hggs-text--small hggs-text--align-center">
+    This web about Higgsboson is made with <a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson">Higgsboson</a> 💋.
   </p>
 </footer>

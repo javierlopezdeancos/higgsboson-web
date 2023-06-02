@@ -1,4 +1,4 @@
-<header class="hggs-flex hggs-flex--row-space-between-center">
+<header>
   <section class="hggs-flex hggs-flex--row-left-center">
     <component-logo></component-logo>
   </section>
@@ -6,3 +6,22 @@
     <component-navigation></component-navigation>
   </section>
 </header>
+
+<style webc:scoped>
+  header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 700px) {
+    header {
+      flex-direction: column;
+    }
+
+    component-navigation {
+      margin-top: var(--hggs-space-default);
+    }
+  }
+</style>

@@ -1,3 +1,17 @@
 <main class="hggs-flex hggs-flex--column-center">
   <component-hero></component-hero>
 </main>
+
+<style webc:scoped>
+  main {
+    padding-left: calc(3 * var(--hggs-space-lg-default));
+    padding-right: calc(3 * var(--hggs-space-lg-default));
+  }
+
+  @media (max-width: 700px) {
+    main {
+      padding-left: var(--hggs-space-default);
+      padding-right: var(--hggs-space-default);
+    }
+  }
+</style>
