@@ -1,5 +1,6 @@
-<div class="hggsw-logo">
+<div class="hggsw-logo hggs-flex hggs-flex--row-left-center hggs-flex--gap-small">
   <div class="hggs-logo"></div>
+  <span class="hggs-text">Higgsboson<span>
 </div>
 
 <style webc>
@@ -17,5 +18,17 @@
 
   .hggsw-logo .hggs-logo:hover {
     animation-play-state: paused
+  }
+
+  .hggsw-logo .hggs-text {
+    font-size: 45px;
+    font-weight: var(--hggs-font-weight-lg-default);
+    margin: 0;
+  }
+
+  @media (max-width: 700px) {
+    .hggsw-logo .hggs-text {
+      font-size: 25px;
+    }
   }
 </style>
