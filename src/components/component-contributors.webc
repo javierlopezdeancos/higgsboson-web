@@ -1,0 +1,22 @@
+<section class="hggsw-contributors hggs-flex--column-center">
+  <header>
+    <h3 class="hggs-h3">Contributors</h3>
+  </header>
+  <ul class="hggs-avatars">
+    <li class="hggs-avatars-item" r="">
+      <figure class="hggs-avatar">
+        <a href="https://github.com/javierlopezdeancos" alt="Javier Lopez de Ancos"><img class="hggs-avatar-image" src="https://javierlopezdeancos.dev/src/images/me.png" alt="higgsboson avatar example"></a>
+      </figure>
+    </li>
+  </ul>
+</section>
+
+<style>
+  .hggsw-contributors {
+    width: 100%;
+  }
+
+  .hggsw-contributors .hggs-avatars {
+    justify-content: center;
+  }
+</style>

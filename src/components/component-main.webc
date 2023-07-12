@@ -1,11 +1,23 @@
 <main class="hggsw-main hggs-flex hggs-flex--column-top-center">
   <component-hero webc:nokeep></component-hero>
+  <component-contributors webc:nokeep></component-contributors>
 </main>
 
 <style>
   .hggsw-main {
     padding-left: calc(3 * var(--hggs-space-lg-default));
     padding-right: calc(3 * var(--hggs-space-lg-default));
+    gap: var(--hggs-space-md-default)
+  }
+
+  .hggsw-main section {
+    margin-top: calc(var(--hggs-space-md-default)/2);
+    margin-bottom: calc(var(--hggs-space-md-default)/2);
+  }
+
+  .hggsw-main section h3 {
+    text-align: center;
+    margin-bottom: var(--hggs-space-md-default);
   }
 
   @media (max-width: 700px) {
