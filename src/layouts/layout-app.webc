@@ -10,3 +10,10 @@
 		<div class="hggs-app" @html="this.content"></div>
 	</body>
 </html>
+
+<style>
+	.hggs-app {
+		padding-bottom: var(--hggs-space-sm-default);
+	}
+</style>
+
