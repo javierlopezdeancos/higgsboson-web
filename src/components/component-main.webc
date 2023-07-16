@@ -1,13 +1,14 @@
-<main class="hggsw-main hggs-flex hggs-flex--column-top-center">
+<main class="hggsw-main">
   <component-hero webc:nokeep></component-hero>
   <component-why-higgsboson-reasons webc:nokeep></component-why-higgsboson-reasons>
   <component-contributors webc:nokeep></component-contributors>
 </main>
 
-<style>
+<style webc>
   .hggsw-main {
     padding-left: calc(3 * var(--hggs-space-lg-default));
     padding-right: calc(3 * var(--hggs-space-lg-default));
+    margin-bottom: var(--hggs-space-md-default);
     gap: var(--hggs-space-default)
   }
 
