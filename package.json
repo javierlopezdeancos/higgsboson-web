@@ -22,6 +22,9 @@
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@11ty/eleventy-plugin-webc": "^0.11.1"
+    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "markdown-it": "^13.0.1"
+  },
+  "dependencies": {
   }
 }
