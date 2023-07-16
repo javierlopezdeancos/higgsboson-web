@@ -1,5 +1,6 @@
 <main class="hggsw-main hggs-flex hggs-flex--column-top-center">
   <component-hero webc:nokeep></component-hero>
+  <component-why-higgsboson-reasons webc:nokeep></component-why-higgsboson-reasons>
   <component-contributors webc:nokeep></component-contributors>
 </main>
 
@@ -7,12 +8,7 @@
   .hggsw-main {
     padding-left: calc(3 * var(--hggs-space-lg-default));
     padding-right: calc(3 * var(--hggs-space-lg-default));
-    gap: var(--hggs-space-md-default)
-  }
-
-  .hggsw-main section {
-    margin-top: calc(var(--hggs-space-md-default)/2);
-    margin-bottom: calc(var(--hggs-space-md-default)/2);
+    gap: var(--hggs-space-default)
   }
 
   .hggsw-main section h3 {
@@ -20,7 +16,7 @@
     margin-bottom: var(--hggs-space-md-default);
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 1100px) {
     .hggsw-main {
       padding-left: var(--hggs-space-default);
       padding-right: var(--hggs-space-default);

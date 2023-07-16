@@ -1,0 +1,104 @@
+<section class="hggsw-why-higgsboson-reasons hggs-flex--row-center">
+  <header>
+    <h3 class="hggs-h3">Why Higgsboson?</h3>
+  </header>
+  <ul class="hggsw-why-higgsboson-reasons-list">
+    <component-why-higgsboson-reason webc:for="reason of [{
+        title: 'Use the web.',
+        description: 'Be the most standard as possible. CSS already has enough capabilities to not need anymore preprocessors capabilities.'
+      },{
+        title: 'Independent pieces.',
+        description: 'Minimum coupling between internal parts. Use hooks to connect the components with the different themes.'
+      },
+      {
+        title: 'Single responsibility.',
+        description: 'Driven by single responsibility, intuitively take control over what, where and how to make your changes.'
+      },
+      {
+        title: 'Evolve it fast.',
+        description: 'Evolve it strongly by propagate changes quickly. Use CSS native cascading inheritance and specificity to your advantage.'
+      },
+      {
+        title: 'Design system ready.',
+        description: 'Developed from a tokens layer, makes it easy to adapt and implement the aesthetic part to any design system.'
+      },
+      {
+        title: 'No coupling.',
+        description: 'No JS framework coupling, independent but easily implementable with any library or front end framework.'
+      }]">
+      <li class="hggsw-why-higgsboson-reason">
+        <h4
+          class="hggs-h4"
+          slot="hggsw-why-higgsboson-reason-title"
+          webc:for="(key, value) in reason"
+          webc:if="key === 'title'"
+          @text="value"
+        >
+        </h4>
+        <p
+          class="hggs-text"
+          slot="hggsw-why-higgsboson-reason-description"
+          webc:for="(key, value) in reason"
+          webc:if="key === 'description'"
+          @text="value"
+        >
+        </p>
+      </li>
+    </component-why-higgsboson-reason>
+  </ul>
+</section>
+
+<style>
+  .hggsw-why-higgsboson-reasons-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: var(--hggs-space-md-default);
+    row-gap: var(--hggs-space-default);
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .hggsw-why-higgsboson-reason {
+    display: block;
+    flex-direction: column;
+    flex: 1 1 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;;
+  }
+
+  .hggsw-why-higgsboson-reason .hggs-h4 {
+    margin-top: 0;
+  }
+
+  @media (max-width: 1100px) {
+    .hggsw-why-higgsboson-reasons-list  {
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+    .hggsw-why-higgsboson-reason {
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .hggsw-why-higgsboson-reason .hggs-h4 {
+      text-align: center;
+    }
+
+    .hggsw-why-higgsboson-reason .hggs-text {
+      text-align: center;
+      width: 60%;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .hggsw-why-higgsboson-reason .hggs-text {
+      width: 100%;
+    }
+  }
+</style>
