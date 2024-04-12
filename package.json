@@ -1,7 +1,7 @@
 {
   "name": "higgsboson-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "Higgsboson web to the higgsboson project",
   "main": "index.js",
   "scripts": {
     "build": "npx @11ty/eleventy",
@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/javierlopezdeancos/higgsboson-web.git"
   },
-  "keywords": [],
+  "keywords": [
+    "higgsboson",
+    "eleventy",
+    "css"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -25,6 +29,5 @@
     "@11ty/eleventy-plugin-webc": "^0.11.1",
     "markdown-it": "^13.0.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
