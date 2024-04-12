@@ -13,7 +13,14 @@
 
 <style>
 	.hggs-app {
-		padding-bottom: var(--hggs-space-sm-default);
-	}
+    gap: var(--hggs-space-md-default);
+		padding-bottom: var(--hggs-space-sm-default);	
+  }
+
+  @media (max-width: 1050px) {
+    .hggs-app {
+      gap: var(--hggs-space-sm-default);
+    }
+  }
 </style>
 

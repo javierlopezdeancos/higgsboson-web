@@ -13,9 +13,19 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 2500px;
+    padding-left: calc(2 * var(--hggs-space-lg-default));
+    padding-right: calc(2 * var(--hggs-space-lg-default));
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 1600px) {
+    header.hggsw-header {
+      padding-left: calc(1 * var(--hggs-space-lg-default));
+      padding-right: calc(1 * var(--hggs-space-lg-default));
+    }
+  }
+
+  @media (max-width: 1050px) {
     header.hggsw-header {
       flex-direction: column;
     }

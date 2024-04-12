@@ -1,6 +1,6 @@
 <section class="hggsw-header hggs-flex hggs-flex--column-center">
-  <h1 class="hggs-h1">Style modern websites progressively without having to be couple to any no native technology.</h1>
-  <p class="hggs-text hggs-text--align-center">A component oriented CSS framework that can be composed to build any design, directly in your markup. Higgsboson is built using <a class="hggs-link" href="https://postcss.org/">Postcss</a> which translates the source code to standard css. The postcss plugins that Higgsboson are using are the least as possible and <span class="hggs-text hggs-text--bold">only if they will be candidates to be part of the css standard</span>.</p>
+  <h1 class="hggs-h1">Style modern websites progressively without have to be couple to any no native technology.</h1>
+  <p class="hggs-text hggs-text--align-center">Semantic classeless framework that can be composed to build any design, directly in your markup. Higgsboson is built using <a class="hggs-link" href="https://postcss.org/">Postcss</a> which translates the source code to standard css. The postcss plugins that Higgsboson is using are the least as possible and <span class="hggs-text--bold">only if they will be candidates to be part of the css standard</span>.</p>
   <button class="hggs-button">Get started</button>
 </section>
 
