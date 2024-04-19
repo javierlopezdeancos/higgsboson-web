@@ -1,7 +1,7 @@
 ---
 layout: main-layout.webc
 title: Blog
-permalink: /blog/
+permalink: /blog.html
 ---
 <posts-list-component :collections="collections" webc:nokeep></posts-list-component>
 
