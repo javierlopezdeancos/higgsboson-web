@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link webc:keep rel="stylesheet" href="/src/styles/higgsboson.min.css" />
+		<link webc:keep rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-vars/base.css">
+		<title>Higgsboson</title>
+		<style webc:keep @html="this.getCSS(this.page?.url)"></style>
+	</head>
+	<body>
+		<div class="hggsw-app hggs-app" @html="this.content"></div>
+	</body>
+</html>
+
+<style webc>
+	.hggsw-app {
+    gap: var(--hggs-space-md-default);
+		padding-bottom: var(--hggs-space-sm-default);
+  }
+
+	.hggsw-app {
+		& .hggsw-header {
+			display: flex;
+			align-items: center;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		& .hggsw-main {
+			display: flex;
+			flex-direction: column;
+			align-items: start;
+			justify-content: start;
+		}
+	}
+
+  @media (max-width: 1050px) {
+    .hggsw-app {
+      gap: var(--hggs-space-sm-default);
+
+			& .hggsw-header {
+				flex-direction: column;
+				margin-bottom: var(--hggs-space-md-default);
+			}
+    }
+  }
+</style>
+

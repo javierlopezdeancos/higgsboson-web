@@ -1,0 +1,50 @@
+<a class="hggsw-logo hggs-flex hggs-flex--row-left-center hggs-flex--gap-small" href="/">
+  <div class="hggs-logo"></div>
+  <span class="hggs-text">Higgsboson</span>
+</a>
+
+<style webc>
+  @keyframes spin {
+    100% {
+      transform:rotate(360deg);
+    }
+  }
+
+  .hggsw-logo {
+     & .hggs-text {
+      font-size: 45px;
+      font-weight: var(--hggs-font-weight-lg-default);
+      cursor: default;
+      text-decoration: none;
+      text-decoration-line: none;
+      text-decoration-color: transparent;
+      margin: 0;
+    }
+
+
+    & .hggs-logo {
+      width: var(--hggs-space-lg-default);
+      height: var(--hggs-space-lg-default);
+      animation: spin 8s linear infinite;
+
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+
+    &:visited,
+    &:active,
+    &:focus {
+      cursor: default;
+      text-decoration: none;
+      text-decoration-line: none;
+      text-decoration-color: transparent;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .hggsw-logo .hggs-text {
+      font-size: 25px;
+    }
+  }
+</style>

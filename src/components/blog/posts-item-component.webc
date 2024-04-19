@@ -1,0 +1,5 @@
+<li class="hggsw-posts-item hggs-list-item">
+  <slot name="hggsw-posts-item-title"></slot>
+  <slot name="hggsw-posts-item-date"></slot>
+</li>
+

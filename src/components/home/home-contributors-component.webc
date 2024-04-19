@@ -5,13 +5,18 @@
   <ul class="hggs-avatars">
     <li class="hggs-avatars-item" r="">
       <figure class="hggs-avatar">
-        <a href="https://github.com/javierlopezdeancos" alt="Javier Lopez de Ancos"><img class="hggs-avatar-image" src="https://avatars.githubusercontent.com/u/1202463?v=4" alt="higgsboson avatar example"></a>
+        <a href="https://github.com/javierlopezdeancos" alt="Javier Lopez de Ancos">
+          <img
+            class="hggs-avatar-image"
+            src="https://avatars.githubusercontent.com/u/1202463?v=4"
+            alt="higgsboson avatar example">
+        </a>
       </figure>
     </li>
   </ul>
 </section>
 
-<style>
+<style webc>
   .hggsw-contributors {
     width: 100%;
   }

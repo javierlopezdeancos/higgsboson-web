@@ -1,0 +1,13 @@
+---
+layout: main-layout.webc
+title: Blog
+permalink: /blog/
+---
+<posts-list-component :collections="collections" webc:nokeep></posts-list-component>
+
+<style webc>
+	.hggsw-blog {
+    width: 100%;z
+  }
+</style>
+
