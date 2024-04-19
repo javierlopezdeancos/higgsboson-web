@@ -1,0 +1,10 @@
+<home-hero-component webc:nokeep></home-hero-component>
+<home-why-higgsboson-list-component webc:nokeep></home-why-higgsboson-list-component>
+<home-contributors-component webc:nokeep></home-contributors-component>
+
+<style webc>
+  .hggsw-main section h3 {
+    text-align: center;
+    margin-bottom: var(--hggs-space-md-default);
+  }
+</style>

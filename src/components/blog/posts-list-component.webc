@@ -1,0 +1,21 @@
+<ul class="hggsw-posts-list hggs-list">
+  <posts-item-component webc:for="post of collections.post" webc:nokeep>
+    <a
+      class="hggs-link"
+      slot="hggsw-posts-item-title"
+      :href="post.url"
+      @text="post.data.title">
+    </a>
+    <span
+      class="hggsw-posts-item-date hggs-text hggs-text--small"
+      slot="hggsw-posts-item-date"
+      @text="niceDate(post.data.date)">
+    </span>
+  </posts-item-component>
+</ul>
+
+<style webc>
+  .hggsw-posts-item-date {
+    margin-left: var(--hggs-space-default);
+  }
+</style>
