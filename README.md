@@ -3,7 +3,7 @@
 
 # Higgsboson's webpage
 
-Webpage to [Higgsboson](https://github.com/javierlopezdeancos/higgsboson), a themeable DOM classes system to native html components.
+Webpage to [Higgsboson](https://github.com/javierlopezdeancos/higgsboson), a themeable semantic classeless framework to native html components.
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
