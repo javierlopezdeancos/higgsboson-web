@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
     linkify: false,
   };
 
-  const mapping = { p: 'hggs-text', a: 'hggs-link', h1: 'hggs-heading', h2: 'hggs-heading', h3: 'hggs-heading', h4: 'hggs-heading', h5: 'hggs-heading', h6: 'hggs-heading', ul: 'hggs-list', ol: 'hggs-list', li: 'hggs-list-item', blockquote: 'hggs-blockquote', code: 'hggs-code', pre: 'hggs-pre' }
+  const mapping = { p: 'hggs-text', a: 'hggs-link', h1: 'hggs-h1', h2: 'hggs-h2', h3: 'hggs-h3', h4: 'hggs-h4', h5: 'hggs-h5', h6: 'hggs-h6', ul: 'hggs-list', ol: 'hggs-list', li: 'hggs-list-item', blockquote: 'hggs-blockquote', code: 'hggs-code', pre: 'hggs-pre' }
 
   eleventyConfig.setLibrary("md", markdownIt(markdownParserOptions).use(markdownItClass, mapping));
 
