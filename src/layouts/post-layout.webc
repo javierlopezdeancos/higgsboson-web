@@ -1,7 +1,7 @@
 ---
 layout: main-layout.webc
 ---
-<section class="hggsw-post-body hggs-text" @html="this.content"></section>
+<section class="hggsw-post-body hggs-flex hggs-flex--column-top-left" @html="this.content"></section>
 
 <style webc>
 	:root {
@@ -109,20 +109,14 @@ layout: main-layout.webc
 		--prism-inline-padding-x: 0.3em;
 		--prism-inline-padding-y: 0.1em;
 		--prism-inline-radius: 0.3em;
+	},
+ 
+	.hggsw-post-body pre {
+		margin-top: var(--hggs-space-md-default);
+		margin-bottom: var(--hggs-space-md-default);
 	}
 
-	.hggsw-post-body {
-		&.hggs-text {
-			margin-top: 0;
-		}
-
-		& p:first-child {
-			margin-top: 0;
-	 	}
-
-		& pre {
-			margin-top: var(--hggs-space-md-default);
-			margin-bottom: var(--hggs-space-md-default);
-		}
+	.hggsw-post-body .hggs-h3 {
+		margin-top: 0;
 	}
 </style>
