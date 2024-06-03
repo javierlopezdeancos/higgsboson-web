@@ -41,7 +41,7 @@ layout: main-layout.webc
 		--prism-marker-color: var(--prism-foreground);
 		--prism-marker-opacity: 0.4;
 		--prism-marker-font-size: 0.8em;
-		--prism-font-size: 14px;
+		--prism-font-size: 16px;
 		--prism-line-height: 1.4em;
 		--prism-font-family: monospace;
 		--prism-inline-font-size: var(--prism-font-size);
@@ -95,7 +95,7 @@ layout: main-layout.webc
 		--prism-marker-color: var(--prism-foreground);
 		--prism-marker-opacity: 0.4;
 		--prism-marker-font-size: 0.8em;
-		--prism-font-size: 14px;
+		--prism-font-size: 16px;
 		--prism-line-height: 1.4em;
 		--prism-font-family: monospace;
 		--prism-inline-font-size: var(--prism-font-size);
