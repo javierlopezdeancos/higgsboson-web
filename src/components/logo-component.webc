@@ -11,13 +11,12 @@
   }
 
   .hggsw-logo {
-     & .hggs-text {
+    text-decoration: unset;
+
+    & .hggs-text {
       font-size: 45px;
       font-weight: var(--hggs-font-weight-lg-default);
       cursor: default;
-      text-decoration: none;
-      text-decoration-line: none;
-      text-decoration-color: transparent;
       margin: 0;
     }
 
@@ -30,15 +29,6 @@
       &:hover {
         animation-play-state: paused;
       }
-    }
-
-    &:visited,
-    &:active,
-    &:focus {
-      cursor: default;
-      text-decoration: none;
-      text-decoration-line: none;
-      text-decoration-color: transparent;
     }
   }
 

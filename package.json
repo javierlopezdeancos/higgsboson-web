@@ -4,9 +4,13 @@
   "description": "Higgsboson web to the higgsboson project",
   "main": "index.js",
   "scripts": {
+    "benchmark": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+    "debug:start": "DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
     "build": "npx @11ty/eleventy",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy",
+    "debug:dev": "DEBUG=Eleventy* npx @11ty/eleventy --serve",
     "dev": "npx @11ty/eleventy --serve",
-    "dev:debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve"
+    "start": "npx @11ty/eleventy --serve --quiet"
   },
   "repository": {
     "type": "git",
@@ -18,19 +22,16 @@
     "css"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "GPL-3.0-only",
   "bugs": {
     "url": "https://github.com/javierlopezdeancos/higgsboson-web/issues"
   },
   "homepage": "https://github.com/javierlopezdeancos/higgsboson-web#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
     "@toycode/markdown-it-class": "^1.2.4",
     "markdown-it": "^13.0.1"
-  },
-  "dependencies": {
   }
 }

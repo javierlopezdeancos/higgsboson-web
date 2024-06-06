@@ -7,7 +7,7 @@
   </section>
 </header>
 
-<style>
+<style webc>
   .hggsw-header {
     width: 100%;
     max-width: 2500px;

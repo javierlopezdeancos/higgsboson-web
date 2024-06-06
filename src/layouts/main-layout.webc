@@ -10,7 +10,7 @@ layout: app-layout.webc
 </main>
 <footer-component webc:nokeep></footer-component>
 
-<style webc>
+<style>
   .hggsw-main {
     padding-left: calc(4 * var(--hggs-space-lg-default));
     padding-right: calc(4 * var(--hggs-space-lg-default));
