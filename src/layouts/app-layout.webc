@@ -1,73 +1,104 @@
-	<!doctype html>
-	<html lang="en">
-		<head>
-			<meta charset="utf-8">
-			<link rel="stylesheet" href="/src/styles/higgsboson.min.css" webc:keep />
-			<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-vars/base.css" webc:keep />
-			<title>Higgsboson</title>
-			<style @html="this.getCSS(this.page?.url)" webc:keep></style>
-		</head>
-		<body>
-			<div class="hggsw-app hggs-app" @html="this.content"></div>
-		</body>
-	</html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+		<link
+			webc:keep
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/apple-touch-icon.png"
+			media="(prefers-color-scheme: light)"
+		/>
+		<link
+			webc:keep
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/favicon-32x32.png"
+			media="(prefers-color-scheme: light)"
+		/>
+		<link
+			webc:keep
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="/favicon-16x16.png"
+			media="(prefers-color-scheme: light)"
+		/>
+		<link
+			webc:keep
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/apple-touch-dark-icon.png"
+			media="(prefers-color-scheme: dark)"
+		/>
+		<link
+			webc:keep
+			id="favicon"
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/favicon-dark-32x32.png"
+			media="(prefers-color-scheme: dark)"
+		/>
+		<link
+			webc:keep
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="/favicon-dark-16x16.png"
+			media="(prefers-color-scheme: dark)"
+		/>
+		<link webc:keep rel="stylesheet" href="/styles/higgsboson.min.css" webc:keep />
+		<link webc:keep rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prism-theme-vars/base.css" webc:keep />
+		<title>Higgsboson</title>
+		<style webc:keep @html="this.getCSS(this.page?.url)" webc:keep></style>
+	</head>
+	<body>
+		<div class="hggsw-app hggs-app" @html="this.content"></div>
+	</body>
+</html>
 
-	<style>
-		@media (prefers-color-scheme: dark) {
-			.hggsw-app {
-				gap: var(--hggs-space-md-default);
-				padding-bottom: var(--hggs-space-sm-default);
-			}
+<style webc>
+	.hggsw-app {
+		gap: var(--hggs-space-md-default);
+		padding-bottom: var(--hggs-space-sm-default);
 
-			.hggsw-app {
-				& .hggsw-header {
-					display: flex;
-					align-items: center;
-					flex-direction: row;
-					justify-content: space-between;
-				}
-
-				& .hggsw-main {
-					display: flex;
-					flex-direction: column;
-					align-items: start;
-					justify-content: start;
-				}
-			}
+		& .hggsw-header {
+			display: flex;
+			align-items: center;
+			flex-direction: row;
+			justify-content: space-between;
 		}
 
-		@media (prefers-color-scheme: light) {
-			.hggsw-app {
-				gap: var(--hggs-space-md-default);
-				padding-bottom: var(--hggs-space-sm-default);
-			}
+		& .hggsw-main {
+			display: flex;
+			flex-direction: column;
+			align-items: start;
+			justify-content: start;
+		}
+	}
 
-			.hggsw-app {
-				& .hggsw-header {
-					display: flex;
-					align-items: center;
-					flex-direction: row;
-					justify-content: space-between;
-				}
+	@media (500px < width <= 1050px) {
+		.hggsw-app {
+			gap: var(--hggs-space-sm-default);
 
-				& .hggsw-main {
-					display: flex;
-					flex-direction: column;
-					align-items: start;
-					justify-content: start;
-				}
+			& .hggsw-header {
+				flex-direction: column;
+				margin-bottom: calc(var(--hggs-space-md-default)/1.5);
 			}
 		}
+	}
 
-		@media (max-width: 1050px) {
-			.hggsw-app {
+	@media (width <= 500px) {
+		.hggsw-app {
+			gap: var(--hggs-space-sm-default);
+
+			& .hggsw-header {
+				flex-direction: column;
+				margin-bottom: calc(var(--hggs-space-md-default)/1.5);
 				gap: var(--hggs-space-sm-default);
-
-				& .hggsw-header {
-					flex-direction: column;
-					margin-bottom: var(--hggs-space-md-default);
-				}
 			}
 		}
-	</style>
-
+	}
+</style>

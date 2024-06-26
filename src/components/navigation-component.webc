@@ -1,42 +1,71 @@
 <nav class="hggsw-navigation">
    <ul>
-    <li><a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson/blob/main/README.md">Docs</a></li>
-    <li><a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson/blob/main/README.md#components">Components</a></li>
-    <li><a class="hggs-link" href="/blog.html">Blog</a></li>
-    <li><a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson">Github</a></li>
-    <li><a class="hggs-link" href="https://discord.gg/hrFRSE6H">Discord</a></li>
+    <li>
+      <a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson/blob/main/README.md">
+        Docs
+      </a>
+    </li>
+    <li>
+        <a
+          class="hggs-link"
+          href="https://github.com/javierlopezdeancos/higgsboson/blob/main/README.md#components"
+        >
+          Components
+        </a>
+    </li>
+    <li>
+      <a class="hggs-link" href="/blog.html">
+        Blog
+      </a>
+    </li>
+    <li>
+      <a class="hggs-link" href="https://github.com/javierlopezdeancos/higgsboson">
+        Github
+      </a>
+    </li>
+    <li>
+      <a class="hggs-link" href="https://discord.gg/hrFRSE6H">
+        Discord
+      </a>
+    </li>
   </ul>
 </nav>
 
 <style webc>
-  .hggsw-navigation ul {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: right;
-    gap: var(--hggs-space-default);
-    list-style-type: none;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+  .hggsw-navigation {
+    & ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: right;
+      gap: var(--hggs-space-default);
+      list-style-type: none;
+      padding-left: 0;
+      margin-top: 0;
+      margin-bottom: 0;
 
-  .hggsw-navigation ul li a {
-    text-decoration: none;
-    font-style: normal;
-    font-size: var(--hggs-font-size-md-default);
-  }
-
-  @media (max-width: 1050px) {
-    .hggsw-navigation {
-      margin-top: var(--hggs-space-md-default);
+      & li {
+        & a {
+          text-decoration: none;
+          font-style: normal;
+          font-size: var(--hggs-font-size-md-default);
+        }
+      }
     }
   }
 
-   @media (max-width: 350px) {
-    .hggsw-navigation ul {
-      flex-direction: column;
-      gap: var(--hggs-space-sm-default);
+  @media (500px < width <= 1050px) {
+    .hggsw-navigation {
+      margin-top: var(--hggs-space-default);
+    }
+  }
+
+  @media (width <= 500px) {
+    .hggsw-navigation {
+      & ul {
+        flex-direction: column;
+        gap: var(--hggs-space-sm-default);
+      }
     }
   }
 </style>

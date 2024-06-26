@@ -15,14 +15,28 @@
     padding-right: calc(4 * var(--hggs-space-lg-default));
   }
 
-  @media (max-width: 1800px) {
+  @media (1800px < width) {
+    .hggsw-header {
+      padding-left: calc(0.8 * var(--hggs-space-lg-default));
+      padding-right: calc(1 * var(--hggs-space-lg-default));
+    }
+  }
+
+  @media (1500px < width <= 1800px) {
     .hggsw-header {
       padding-left: calc(2.8 * var(--hggs-space-lg-default));
       padding-right: calc(3 * var(--hggs-space-lg-default));
     }
   }
 
-  @media (max-width: 1500px) {
+  @media (500px < width <= 1500px) {
+    .hggsw-header {
+      padding-left: calc(0.8 * var(--hggs-space-lg-default));
+      padding-right: calc(1 * var(--hggs-space-lg-default));
+    }
+  }
+
+  @media (width <= 500px) {
     .hggsw-header {
       padding-left: calc(0.8 * var(--hggs-space-lg-default));
       padding-right: calc(1 * var(--hggs-space-lg-default));
