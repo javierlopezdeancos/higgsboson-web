@@ -123,6 +123,46 @@ layout: main-layout.webc
 			&:last-child {
 				margin-bottom: var(--hggs-space-default);
 			}
+
+			&:has(+ .hggs-h2) {
+				margin-bottom: var(--hggs-space-default);
+			}
+
+			&:has(+ .hggs-h3) {
+				margin-bottom: var(--hggs-space-default);
+			}
+
+			&:has(+ .hggs-h4) {
+				margin-bottom: var(--hggs-space-default);
+			}
+
+			&:has(+ .hggs-h5) {
+				margin-bottom: var(--hggs-space-default);
+			}
+
+			&:has(+ .hggs-h6) {
+				margin-bottom: var(--hggs-space-default);
+			}
+
+			& + .hggs-h2 {
+				margin-top: var(--hggs-space-default);
+			}
+
+			& + .hggs-h3 {
+				margin-top: var(--hggs-space-default);
+			}
+
+			& + .hggs-h4 {
+				margin-top: var(--hggs-space-default);
+			}
+
+			& + .hggs-h5 {
+				margin-top: var(--hggs-space-default);
+			}
+
+			& + .hggs-h6 {
+				margin-top: var(--hggs-space-default);
+			}
 		}
 
 		& .hggs-blockquote {
