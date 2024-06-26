@@ -5,7 +5,7 @@ const markdownItClass = require('@toycode/markdown-it-class')
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({"src/styles": "styles", "favicon": "/", "site.webmanifest": "/"  });
+  eleventyConfig.addPassthroughCopy({"src/styles": "styles", "favicon": "/", "/site.webmanifest": "/"  });
 
   const markdownParserOptions = {
     html: true,
